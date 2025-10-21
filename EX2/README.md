@@ -1,3 +1,4 @@
+## Instruções
 #### 1.
 ```
 $gcc seno.c -o seno -lm
