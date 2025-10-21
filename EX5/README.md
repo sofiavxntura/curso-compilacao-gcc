@@ -17,4 +17,9 @@
     libProgPag076.a: mychio.o mypushpop.o mygetop.o
                     ar rcs libProgPag076.a mychio.o mypushpop.o mygetop.o
   ```
-  
+
+- Criei `progPag076Stat`
+  ```
+   progPag076Stat: progPag076.c libProgPag076.a
+                 gcc progPag076.c libProgPag076.a -o progPag076Stat --static
+  ```
