@@ -1,3 +1,5 @@
+## Instruções
+
 #### 1.
 ```
 $ gcc mygetop.c mypushpop.c mychio.c -c
