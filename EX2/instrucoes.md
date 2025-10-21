@@ -1,6 +1,6 @@
 #### 1.
 ```
-$gcc seno.c -o seno
+$gcc seno.c -o seno -lm
 $ls -la
 ```
 
