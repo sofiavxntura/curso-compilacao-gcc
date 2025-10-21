@@ -24,6 +24,6 @@ $ls -la
 
 #### 5.
 ```
-$gcc seno.c/usr/lib/x86_64-linux-gnu/libm.a -o senoStaDin
+$gcc seno.c /usr/lib/x86_64-linux-gnu/libm.a --static -o senoStaDin
 $ls -la
 ```
